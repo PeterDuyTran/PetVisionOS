@@ -770,10 +770,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1230615303}
-  - component: {fileID: 1230615304}
-  - component: {fileID: 1230615305}
+  - component: {fileID: 1230615306}
   m_Layer: 0
-  m_Name: Pet
+  m_Name: PetSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -794,7 +793,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 135, z: 0}
---- !u!114 &1230615304
+--- !u!114 &1230615306
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -803,40 +802,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1230615302}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f03c1a1232294598befff03fea160dce, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d47551380f54dd0a634bde3ca9098e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _prefabModels:
   - {fileID: 7962199819078159310, guid: f5b41ba4c79702547a89de7544b80656, type: 3}
-  - {fileID: 6788538757290762323, guid: ad4137f595ec8e2449cacca9df7d3735, type: 3}
   - {fileID: 6182162820492919152, guid: 84b7c8441f160174fa5c6f94cf397f0a, type: 3}
   - {fileID: 6842458599697738422, guid: cefda5744f2acb54d8f08973a10bee1e, type: 3}
   - {fileID: 1342889782683910774, guid: 4aa01f1d5c72d4e47a8c44e612a6b6fc, type: 3}
   - {fileID: 4950779065795438720, guid: 8cb75dc2fdd63734988b8358f1314d25, type: 3}
   - {fileID: 5279811246306103102, guid: 252ba5fa5d8167e42af72cf97baa830e, type: 3}
+  - {fileID: 6788538757290762323, guid: ad4137f595ec8e2449cacca9df7d3735, type: 3}
   - {fileID: 7511180232019162148, guid: 818c5a1ba0d9810439f11299463f2294, type: 3}
   - {fileID: 4807929556901506227, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
---- !u!65 &1230615305
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1230615302}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.39656144, y: 0.66361743, z: 0.4498483}
-  m_Center: {x: -0.020753086, y: 0.32573745, z: -0.014074042}
 --- !u!1001 &1261945906
 PrefabInstance:
   m_ObjectHideFlags: 0

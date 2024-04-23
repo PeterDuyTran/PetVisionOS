@@ -1913,6 +1913,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7292658344771522932}
   - component: {fileID: 3734775969355451150}
+  - component: {fileID: 5059014983611255581}
+  - component: {fileID: 1563445127712433743}
+  - component: {fileID: 7392887997629294355}
   m_Layer: 0
   m_Name: Bear_4
   m_TagString: Untagged
@@ -1928,7 +1931,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7962199819078159310}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.97865236, z: -0, w: -0.20552275}
+  m_LocalRotation: {x: -0, y: -0.9786528, z: 0, w: -0.2055208}
   m_LocalPosition: {x: -3.882, y: 0.5, z: -2.343}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
@@ -1958,6 +1961,92 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5059014983611255581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7962199819078159310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a14d0f354543444a26ffa7d8075571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entries:
+  - animationName: Combat Idle
+    type: 1
+  - animationName: Idle
+    type: 1
+  - animationName: Run Forward
+    type: 1
+  - animationName: Run Backward
+    type: 1
+  - animationName: WalkBackward
+    type: 1
+  - animationName: WalkForward
+    type: 1
+  - animationName: Jump
+    type: 0
+  - animationName: Attack1
+    type: 0
+  - animationName: Attack2
+    type: 0
+  - animationName: Attack3
+    type: 0
+  - animationName: Attack5
+    type: 0
+  - animationName: Buff
+    type: 0
+  - animationName: Get Hit Front
+    type: 0
+  - animationName: Stunned Loop
+    type: 1
+  - animationName: Eat
+    type: 1
+  - animationName: Sit
+    type: 1
+  - animationName: Sleep
+    type: 1
+  - animationName: Death
+    type: 1
+  animators:
+  - {fileID: 3734775969355451150}
+  entryIndex: 0
+  animationNameText: {fileID: 0}
+--- !u!114 &1563445127712433743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7962199819078159310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff2e48069d54cfdad73d1399fe57724, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &7392887997629294355
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7962199819078159310}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1.6243637, z: 2.975228}
+  m_Center: {x: -0.00000012967972, y: 0.67253506, z: 0.18107103}
 --- !u!1 &8002475675295336084
 GameObject:
   m_ObjectHideFlags: 0
