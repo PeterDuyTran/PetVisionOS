@@ -30,9 +30,9 @@ namespace PetVisionPro.Scripts
 			entry.animationName = "Eat";
 			entry.type = AnimationDemo.AnimationType.Bool;
 			
-			_animationDemo.PlayAnimation(entry);
+			// _animationDemo.PlayAnimation(entry);
 
-			// _animationDemo.NextAnimation();
+			_animationDemo.NextAnimation();
 		}
 
 		public override void Dancing()

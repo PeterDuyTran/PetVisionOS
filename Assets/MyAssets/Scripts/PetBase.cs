@@ -21,7 +21,7 @@ namespace PetVisionPro.Scripts
 		public virtual void Move()
 		{
 			// throw new System.NotImplementedException();
-			Dancing();
+			Playing();
 		}
 
 		public virtual void EndSelect(bool WithCancel)
