@@ -183,7 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Dimensions: {x: 3, y: 3, z: 3}
   m_IsUniformScale: 1
-  m_OutputConfiguration: {fileID: 11400000, guid: cfca9d641da824459be5edd273fb810b, type: 2}
+  m_OutputConfiguration: {fileID: 11400000, guid: 6bbe5ea8b330c4754ab7928a1a1999c2, type: 2}
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -579,7 +579,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Expand View
+  m_text: 'Mode: Unbounded
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
@@ -922,9 +924,9 @@ MonoBehaviour:
   m_PressEnd:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 779421671}
-        m_TargetAssemblyTypeName: PolySpatial.Template.LoadLevelButton, Assembly-CSharp
-        m_MethodName: LoadLevel
+      - m_Target: {fileID: 1230615306}
+        m_TargetAssemblyTypeName: PetVisionPro.Scripts.PetSpawner, Assembly-CSharp
+        m_MethodName: LoadBounded
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1018,9 +1020,9 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 960130951}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -849.99994}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1715400305}
@@ -1028,7 +1030,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -48}
+  m_AnchoredPosition: {x: -779.99994, y: 1199.9999}
   m_SizeDelta: {x: 170, y: 60}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &960130953
@@ -1400,7 +1402,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 47806daeea3472c46b51340d1f730b40, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 392b34128b46646cab40e16b744e7fb2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1680,7 +1682,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1926643937
 MonoBehaviour:
   m_ObjectHideFlags: 0

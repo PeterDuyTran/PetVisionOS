@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 
 namespace PetVisionPro.Scripts
@@ -47,6 +48,16 @@ namespace PetVisionPro.Scripts
 		public void ChangeAnim()
 		{
 			
+		}
+
+		public void LoadUnbounded()
+		{
+			SceneManager.LoadScene("Main_Unbounded");
+		}
+
+		public void LoadBounded()
+		{
+			SceneManager.LoadScene("Main_Bounded");
 		}
 	}
 }
