@@ -29,5 +29,17 @@ namespace PolySpatial.Template
         {
             SceneManager.sceneUnloaded -= OnSceneUnloaded;
         }
+        
+        
+        public void LoadBounded()
+        {
+            SceneManager.LoadScene("Main_Bounded");
+        }
+        
+        
+        public void LoadUnbounded()
+        {
+            SceneManager.LoadScene("SampleSceneUnbounded");
+        }
     }
 }

@@ -924,8 +924,8 @@ MonoBehaviour:
   m_PressEnd:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1230615306}
-        m_TargetAssemblyTypeName: PetVisionPro.Scripts.PetSpawner, Assembly-CSharp
+      - m_Target: {fileID: 1910854073}
+        m_TargetAssemblyTypeName: PolySpatial.Template.SceneUtility, Assembly-CSharp
         m_MethodName: LoadUnbounded
         m_Mode: 1
         m_Arguments:

@@ -49,15 +49,5 @@ namespace PetVisionPro.Scripts
 		{
 			
 		}
-
-		public void LoadUnbounded()
-		{
-			SceneManager.LoadScene("Main_Unbounded");
-		}
-
-		public void LoadBounded()
-		{
-			SceneManager.LoadScene("Main_Bounded");
-		}
 	}
 }
