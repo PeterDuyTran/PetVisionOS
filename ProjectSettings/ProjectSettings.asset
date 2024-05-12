@@ -388,7 +388,10 @@ PlayerSettings:
       m_SubKind: App Store
   - m_BuildTarget: VisionOS
     m_Icons:
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 2729451a889fb402d8f7c785106cf2c1, type: 3}
+      - {fileID: 2800000, guid: 2729451a889fb402d8f7c785106cf2c1, type: 3}
+      - {fileID: 2800000, guid: 2729451a889fb402d8f7c785106cf2c1, type: 3}
       m_Width: 1024
       m_Height: 1024
       m_Kind: 0
