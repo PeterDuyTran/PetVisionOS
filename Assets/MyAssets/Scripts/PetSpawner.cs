@@ -10,10 +10,10 @@ namespace PetVisionPro.Scripts
 	{
 		[FormerlySerializedAs("_prefabModel")] [SerializeField]
 		private List<GameObject> _prefabModels;
-
 		private int _petIndex;
 		private GameObject _currentModel;
 
+		public int SelectedIndex = 0;
 		public int PetIndex
 		{
 			get => _petIndex;
@@ -32,14 +32,15 @@ namespace PetVisionPro.Scripts
 
 		private void Start()
 		{
-			ChangePet();
+			ChangePet(SelectedIndex);
 		}
 
-		public void ChangePet()
+		public void ChangePet(int Index = -1)
 		{
 			if (_currentModel)
 				Destroy(_currentModel);
-			_currentModel = Instantiate(_prefabModels[PetIndex++]);
+			int i = Index == -1 ? PetIndex++ : Index;
+			_currentModel = Instantiate(_prefabModels[i]);
 			_currentModel.transform.SetParent(transform);
 			_currentModel.transform.SetLocalPositionAndRotation(Vector3.zero, quaternion.identity);
 		}
